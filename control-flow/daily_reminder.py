@@ -8,7 +8,6 @@ match priority:
         reminder = f"'{task}' is a medium priority task"
     case "low":
         reminder = f"'{task}' is a low priority task"
-
 if time_bound == "yes":
     reminder = f"Reminder: {reminder} that requires immediate attention today!"
 else:
